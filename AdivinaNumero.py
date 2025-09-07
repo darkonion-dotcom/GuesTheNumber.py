@@ -9,8 +9,8 @@ if respuesta=='y':
     input("¿Listo? (Enter)")
     if operacion=="Ahora súmale":
         NumAdivinar=numero
-s
-        
+    else:
+        NumAdivinar=-numero
     operacion=random.choice(["Ahora súmale","Ahora réstale"])
     numero=random.randint(1,20)
     print(f"{operacion} {numero} a tu número.")
